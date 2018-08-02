@@ -12,9 +12,9 @@ import com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExceptio
 
 public class DBFactory {
 	private Connection con = null;
-	private static final String URL = "jdbc:postgresql://ec2-54-227-240-7.compute-1.amazonaws.com:5432/dccjt09j079a8n";
-	private static final String USERNAME = "zjyqrkmannltqu"; 
-	private static final String PASSWORD = "ce2f1ecf34cb945da8cad4d8049c728d724282ba0ae852df0e41c103d9e76d42"; 
+	private static final String URL = "jdbc:mysql://mmhighschool.ml:3306/mmhighschool_ethereals_db";
+	private static final String USERNAME = "mmhighschool_ethereals"; 
+	private static final String PASSWORD = "ethereals"; 
 	 
 	public DBFactory() {
 		
